@@ -1,0 +1,93 @@
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+build/
+Builds/
+cmake-build-*/
+out/
+install/
+
+# ---------------------------------------------------------------------------
+# JUCE is not redistributed by this repository.
+# Clone it separately, see the Building section of README.md.
+# ---------------------------------------------------------------------------
+JUCE/
+
+# ---------------------------------------------------------------------------
+# CMake
+# ---------------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+_deps/
+
+# ---------------------------------------------------------------------------
+# JUCE generated sources
+# ---------------------------------------------------------------------------
+JuceLibraryCode/
+JuceHeader.h
+
+# ---------------------------------------------------------------------------
+# Visual Studio and MSVC
+# ---------------------------------------------------------------------------
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.aps
+*.tlog
+*.log
+
+# ---------------------------------------------------------------------------
+# Installer project. Kept private, it carries brand assets and produces the
+# signed setup binary rather than source.
+# ---------------------------------------------------------------------------
+Installer/
+
+# ---------------------------------------------------------------------------
+# Internal product document. It contains pricing, sales targets and
+# competitor analysis, so it is kept out of the public repository.
+# Remove this rule if you decide to publish it.
+# ---------------------------------------------------------------------------
+PRD - Lazerator*.docx
+~$*.docx
+
+# ---------------------------------------------------------------------------
+# Rendered audio and local scratch files
+# ---------------------------------------------------------------------------
+*.wav
+*.aiff
+*.flac
+*.mp3
+
+# ---------------------------------------------------------------------------
+# Editors
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---------------------------------------------------------------------------
+# Operating system
+# ---------------------------------------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
